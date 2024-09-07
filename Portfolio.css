@@ -207,3 +207,69 @@ header {
 .gallery-item:hover .overlay {
     opacity: 1;
 }
+
+/* Cantact me */
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.brief {
+    flex: 1;
+    min-width: 250px;
+}
+
+.brief h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.brief p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.form {
+    flex: 1;
+    min-width: 250px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #555;
+}
+
